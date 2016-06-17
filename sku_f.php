@@ -1356,11 +1356,20 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
             <input name="pdkIronAsPackagedPer" type="text" value="<?php echo $PDK_row->getField('pdkIronAsPackagedPer'); ?>" id="pdkIronAsPackagedPer">
           </span>%
         </td>
-        <td class="table_side_head noHighlight">Iron</td>
+        <td class="table_row">
+          <span id="sprytextfield87">
+            <input name="pdkIronAsPackagedMg" type="text" value="<?php echo $PDK_row->getField('pdkIronAsPackagedMg'); ?>" id="pdkIronAsPackagedMg">
+          </span>mg
+        </td>
         <td class="table_row">
           <span id="sprytextfield58">
             <input name="pdkIronAsPreparedPer" type="text" value="<?php echo $PDK_row->getField('pdkIronAsPreparedPer'); ?>" id="pdkIronAsPreparedPer">
           </span>%
+        </td>
+        <td class="table_row">
+          <span id="sprytextfield88">
+            <input name="pdkIronAsPreparedMg" type="text" value="<?php echo $PDK_row->getField('pdkIronAsPreparedMg'); ?>" id="pdkIronAsPreparedMg">
+          </span>mg
         </td>
       </tr>
 
@@ -1908,6 +1917,8 @@ var sprytextfield83 = new Spry.Widget.ValidationTextField("sprytextfield83", "no
 var sprytextfield84 = new Spry.Widget.ValidationTextField("sprytextfield84", "none", {isRequired:false});
 var sprytextfield85 = new Spry.Widget.ValidationTextField("sprytextfield85", "none", {isRequired:false});
 var sprytextfield86 = new Spry.Widget.ValidationTextField("sprytextfield86", "none", {isRequired:false});
+var sprytextfield87 = new Spry.Widget.ValidationTextField("sprytextfield87", "none", {isRequired:false});
+var sprytextfield88 = new Spry.Widget.ValidationTextField("sprytextfield88", "none", {isRequired:false});
 var sprytextarea10 = new Spry.Widget.ValidationTextarea("sprytextarea10", {isRequired:false});
 var MenuBar1 = new Spry.Widget.MenuBar("supplier", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
 var MenuBar2 = new Spry.Widget.MenuBar("printers", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
