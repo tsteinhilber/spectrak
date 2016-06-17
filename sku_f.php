@@ -1305,6 +1305,7 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
             <input name="pdkVitaminAAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminAAsPrepared'); ?>" id="pdkVitaminAAsPrepared">
           </span>%
         </td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
       </tr>
 
       <!-- VITAMIN C -->
@@ -1321,6 +1322,7 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
             <input name="pdkVitaminCAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminCAsPrepared'); ?>" id="pdkVitaminCAsPrepared">
           </span>%
         </td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
       </tr>
 
       <!-- CALCIUM -->
@@ -1432,12 +1434,13 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
             <input name="pdkVitaminEAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkVitaminEAsPackaged'); ?>" id="pdkVitaminEAsPackaged">
           </span>%
         </td>
-        <td class="table_side_head_wrap noHighlight">Vitamin E</td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
         <td class="table_row">
           <span id="sprytextfield80">
             <input name="pdkVitaminEAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminEAsPrepared'); ?>" id="pdkVitaminEAsPrepared">
           </span>%
         </td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
       </tr>
 
       <!-- THIAMIN -->
@@ -1448,12 +1451,13 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
             <input name="pdkThiaminAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkThiaminAsPackaged'); ?>" id="pdkThiaminAsPackaged">
           </span>%
         </td>
-        <td class="table_side_head_wrap noHighlight">Thiamin</td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
         <td class="table_row">
           <span id="sprytextfield62">
             <input name="pdkThiaminAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkThiaminAsPrepared'); ?>" id="pdkThiaminAsPrepared">
           </span>%
         </td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
       </tr>
 
       <!-- RIBOFLAVIN -->
@@ -1464,12 +1468,13 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
             <input name="pdkRiboflavinAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkRiboflavinAsPackaged'); ?>" id="pdkRiboflavinAsPackaged">
           </span>%
         </td>
-        <td class="table_side_head_wrap noHighlight">Riboflavin</td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
         <td class="table_row">
           <span id="sprytextfield64">
             <input name="pdkRiboflavinAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkRiboflavinAsPrepared'); ?>" id="pdkRiboflavinAsPrepared">
           </span>%
         </td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
       </tr>
 
       <!-- NIACIN -->
@@ -1480,12 +1485,13 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
             <input name="pdkNiacinAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkNiacinAsPackaged'); ?>" id="pdkNiacinAsPackaged">
           </span>%
         </td>
-        <td class="table_side_head_wrap noHighlight">Niacin</td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
         <td class="table_row">
           <span id="sprytextfield66">
             <input name="pdkNiacinAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkNiacinAsPrepared'); ?>" id="pdkNiacinAsPrepared">
           </span>%
         </td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
       </tr>
 
       <!-- VITAMIN B6 -->
@@ -1496,12 +1502,13 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
             <input name="pdkVitaminB6AsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkVitaminB6AsPackaged'); ?>" id="pdkVitaminB6AsPackaged">
           </span>%
         </td>
-        <td class="table_side_head_wrap noHighlight">Vitamin B6</td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
         <td class="table_row">
           <span id="sprytextfield72">
             <input name="pdkVitaminB6AsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminB6AsPrepared'); ?>" id="pdkVitaminB6AsPrepared">
           </span>%
         </td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
       </tr>
 
       <!-- FOLIC ACID -->
@@ -1512,12 +1519,13 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
             <input name="pdkFolicAcidAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkFolicAcidAsPackaged'); ?>" id="pdkFolicAcidAsPackaged">
           </span>%
         </td>
-        <td class="table_side_head_wrap noHighlight">Folic Acid</td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
         <td class="table_row">
           <span id="sprytextfield70">
             <input name="pdkFolicAcidAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkFolicAcidAsPrepared'); ?>" id="pdkFolicAcidAsPrepared">
           </span>%
         </td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
       </tr>
 
       <!-- VITAMIN B12 -->
@@ -1528,12 +1536,13 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
             <input name="pdkVitaminB12AsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkVitaminB12AsPackaged'); ?>" id="pdkVitaminB12AsPackaged">
           </span>%
         </td>
-        <td class="table_side_head_wrap noHighlight">Vitamin B12</td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
         <td class="table_row">
           <span id="sprytextfield68">
             <input name="pdkVitaminB12AsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminB12AsPrepared'); ?>" id="pdkVitaminB12AsPrepared">
           </span>%
         </td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
       </tr>
 
       <!-- PHOSPHORUS -->
@@ -1544,12 +1553,13 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
             <input name="pdkPhosphorusAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkPhosphorusAsPackaged'); ?>" id="pdkPhosphorusAsPackaged">
           </span>%
         </td>
-        <td class="table_side_head_wrap noHighlight">Phosphorus</td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
         <td class="table_row">
           <span id="sprytextfield74">
             <input name="pdkPhosphorusAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkPhosphorusAsPrepared'); ?>" id="pdkPhosphorusAsPrepared">
           </span>%
         </td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
       </tr>
 
       <!-- MAGNESIUM -->
@@ -1558,22 +1568,30 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
         <td class="table_row"><span id="sprytextfield75">
           <input name="pdkMagnesiumAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkMagnesiumAsPackaged'); ?>" id="pdkMagnesiumAsPackaged">
           </span>%</td>
-        <td class="table_side_head_wrap noHighlight">Magnesium</td>
-        <td class="table_row"><span id="sprytextfield76">
-          <input name="pdkMagnesiumAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkMagnesiumAsPrepared'); ?>" id="pdkMagnesiumAsPrepared">
-          </span>%</td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
+        <td class="table_row">
+          <span id="sprytextfield76">
+            <input name="pdkMagnesiumAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkMagnesiumAsPrepared'); ?>" id="pdkMagnesiumAsPrepared">
+          </span>%
+        </td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
       </tr>
 
       <!-- ZINC -->
       <tr>
         <td class="table_side_head_wrap">Zinc</td>
-        <td class="table_row"><span id="sprytextfield77">
-          <input name="pdkZincAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkZincAsPackaged'); ?>" id="pdkZincAsPackaged">
-          </span>%</td>
-        <td class="table_side_head_wrap noHighlight">Zinc</td>
-        <td class="table_row"><span id="sprytextfield78">
-          <input name="pdkZincAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkZincAsPrepared'); ?>" id="pdkZincAsPrepared">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield77">
+            <input name="pdkZincAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkZincAsPackaged'); ?>" id="pdkZincAsPackaged">
+          </span>%
+        </td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
+        <td class="table_row">
+          <span id="sprytextfield78">
+            <input name="pdkZincAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkZincAsPrepared'); ?>" id="pdkZincAsPrepared">
+          </span>%
+        </td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
       </tr>
 
       <!-- AS PREPARED FOOTNOTE -->
