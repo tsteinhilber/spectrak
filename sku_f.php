@@ -1152,6 +1152,23 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
 
+      <!-- ADDED SUGARS -->
+      <tr>
+        <td class="table_side_head_req">Added Sugars</td>
+        <td class="table_row_borderR" width="20%"><span id="sprytextfield49">
+          <input name="pdkSugarsAddedAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAddedAsPackagedG'); ?>" id="pdkSugarsAddedAsPackagedG">
+          </span>g</td>
+        <td class="table_row_borderR" width="20%"><span id="sprytextfield83">
+          <input name="pdkSugarsAddedAsPackagedPer" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAddedAsPackagedPer'); ?>" id="pdkSugarsAddedAsPackagedPer">
+          </span>%</td>
+        <td class="table_row_borderR" width="20%"><span id="sprytextfield50">
+          <input name="pdkSugarsAddedAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAddedAsPreparedG'); ?>" id="pdkSugarsAddedAsPreparedG">
+          </span>g</td>
+        <td class="table_row" width="20%"><span id="sprytextfield84">
+          <input name="pdkSugarsAddedAsPreparedPer" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAddedAsPreparedPer'); ?>" id="pdkSugarsAddedAsPreparedPer">
+          </span>%</td>
+      </tr>
+
       <!-- PROTEIN -->
       <tr>
         <td class="table_side_head_req">Protein</td>
