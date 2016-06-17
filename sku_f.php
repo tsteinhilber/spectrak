@@ -676,7 +676,7 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
     </table>
 
 <!-- DIELINES -->
-    To add dielines, click on the + button in the DIELINES field.&nbsp; This will give you the option of uploading a new dieline, or choosing from a list of dielines associated with previous jobs.
+    To add dielines, click on the + button in the DIELINES field. This will give you the option of uploading a new dieline, or choosing from a list of dielines associated with previous jobs.
     <table id="DIELINES" class="table" width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td name="dielineHeader" class="table_header">Dielines</td>
@@ -723,21 +723,27 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
       </tr>
       <tr>
         <td class="table_side_head_req">Product Name<br /></td>
-        <td class="table_row"><span id="sprytextfield1">
-          <input name="pdkProductName" type="text" value="<?php echo $PDK_row->getField('pdkProductName'); ?>" id="pdkProductName">
-          </span></td>
+        <td class="table_row">
+          <span id="sprytextfield1">
+            <input name="pdkProductName" type="text" value="<?php echo $PDK_row->getField('pdkProductName'); ?>" id="pdkProductName">
+          </span>
+        </td>
       </tr>
       <tr>
         <td class="table_side_head_req">Net Weight / Size &amp; Count</td>
-        <td class="table_row"><span id="sprytextfield2">
-          <input name="pdkNetWeight" type="text" value="<?php echo $PDK_row->getField('pdkNetWeight'); ?>" id="pdkNetWeight">
-          </span></td>
+        <td class="table_row">
+          <span id="sprytextfield2">
+            <input name="pdkNetWeight" type="text" value="<?php echo $PDK_row->getField('pdkNetWeight'); ?>" id="pdkNetWeight">
+          </span>
+        </td>
       </tr>
       <tr>
         <td class="table_side_head_req">Secondary Descriptors</td>
-        <td class="table_row"><span id="sprytextarea1">
-          <textarea name="pdkSecondaryDescriptors" id="pdkSecondaryDescriptors" cols="45" rows="5"><?php echo $PDK_row->getField('pdkSecondaryDescriptors'); ?></textarea>
-          </span></td>
+        <td class="table_row">
+          <span id="sprytextarea1">
+            <textarea name="pdkSecondaryDescriptors" id="pdkSecondaryDescriptors" cols="45" rows="5"><?php echo $PDK_row->getField('pdkSecondaryDescriptors'); ?></textarea>
+          </span>
+        </td>
       </tr>
 
 
@@ -768,8 +774,9 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
 	  <!-- REQUIRED PRODUCT CLAIMS/FEATURES/QUALIFIERS -->
       <tr>
         <td class="table_side_head_req">Required Product Claims / Features / Qualifiers</td>
-        <td class="table_row"><span id="sprytextarea2">
-          <textarea name="pdkProductClaims" id="pdkProductClaims" cols="45" rows="5"><?php echo $PDK_row->getField('pdkProductClaims'); ?></textarea>
+        <td class="table_row">
+          <span id="sprytextarea2">
+            <textarea name="pdkProductClaims" id="pdkProductClaims" cols="45" rows="5"><?php echo $PDK_row->getField('pdkProductClaims'); ?></textarea>
           </span>
         </td>
       </tr>
@@ -827,17 +834,21 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
 	  <!-- INGREDIENT CLAIMS -->
       <tr>
         <td class="table_side_head_req">Ingredient Statement</td>
-        <td class="table_row"><span id="sprytextarea3">
-          <textarea name="pdkIngredientStatement" id="pdkIngredientStatement" cols="45" rows="5"><?php echo $PDK_row->getField('pdkIngredientStatement'); ?></textarea>
-          </span></td>
+        <td class="table_row">
+          <span id="sprytextarea3">
+            <textarea name="pdkIngredientStatement" id="pdkIngredientStatement" cols="45" rows="5"><?php echo $PDK_row->getField('pdkIngredientStatement'); ?></textarea>
+          </span>
+        </td>
       </tr>
 
 	  <!-- PACKAGE COMPONENTS -->
       <tr>
         <td class="table_side_head_wrap">Package Components:<br>Cap/Lid Colors etc.</td>
-        <td class="table_row"><span id="sprytextfield4">
-          <input name="pdkPackageComponents" type="text" value="<?php echo $PDK_row->getField('pdkPackageComponents'); ?>" id="pdkPackageComponents">
-          </span></td>
+        <td class="table_row">
+          <span id="sprytextfield4">
+            <input name="pdkPackageComponents" type="text" value="<?php echo $PDK_row->getField('pdkPackageComponents'); ?>" id="pdkPackageComponents">
+          </span>
+        </td>
       </tr>
       <tr>
         <td class="table_side_head_req" id="pdkPackageConfigurationLabel">Package Configuration</td>
@@ -929,24 +940,32 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
       </tr>
       <tr>
         <td class="table_side_head_req">Serving Size</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield5">
-          <input name="pdkServingSizeAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkServingSizeAsPackaged'); ?>" id="pdkServingSizeAsPackaged">
-        </span></td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield5">
+            <input name="pdkServingSizeAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkServingSizeAsPackaged'); ?>" id="pdkServingSizeAsPackaged">
+          </span>
+        </td>
         <td class="table_row_borderR" width="20%">&nbsp;</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield6">
-          <input name="pdkServingSizeAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkServingSizeAsPrepared'); ?>" id="pdkServingSizeAsPrepared">
-          </span></td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield6">
+            <input name="pdkServingSizeAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkServingSizeAsPrepared'); ?>" id="pdkServingSizeAsPrepared">
+          </span>
+        </td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
       <tr>
         <td class="table_side_head_req">Servings per Container</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield7">
-          <input name="pdkServingsPerContainerAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkServingsPerContainerAsPackaged'); ?>" id="pdkServingsPerContainerAsPackaged">
-          </span></td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield7">
+            <input name="pdkServingsPerContainerAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkServingsPerContainerAsPackaged'); ?>" id="pdkServingsPerContainerAsPackaged">
+          </span>
+        </td>
         <td class="table_row_borderR" width="20%">&nbsp;</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield8">
-          <input name="pdkServingsPerContainerAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkServingsPerContainerAsPrepared'); ?>" id="pdkServingsPerContainerAsPrepared">
-          </span></td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield8">
+            <input name="pdkServingsPerContainerAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkServingsPerContainerAsPrepared'); ?>" id="pdkServingsPerContainerAsPrepared">
+          </span>
+        </td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
       <tr>
@@ -958,215 +977,303 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
       <!-- CALORIES -->
       <tr>
         <td class="table_side_head_req">Calories</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield9">
-          <input name="pdkCaloriesAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkCaloriesAsPackaged'); ?>" id="pdkCaloriesAsPackaged">
-         </span></td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield9">
+            <input name="pdkCaloriesAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkCaloriesAsPackaged'); ?>" id="pdkCaloriesAsPackaged">
+         </span>
+        </td>
         <td class="table_row_borderR" width="20%">&nbsp;</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield10">
-          <input name="pdkCaloriesAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkCaloriesAsPrepared'); ?>" id="pdkCaloriesAsPrepared">
-          </span></td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield10">
+            <input name="pdkCaloriesAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkCaloriesAsPrepared'); ?>" id="pdkCaloriesAsPrepared">
+          </span>
+        </td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
 
       <!-- CALORIES FROM FAT -->
       <tr>
         <td class="table_side_head_req">Calories from Fat</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield11">
-          <input name="pdkCaloriesFromFatAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkCaloriesFromFatAsPackaged'); ?>" id="pdkCaloriesFromFatAsPackaged">
-          </span></td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield11">
+            <input name="pdkCaloriesFromFatAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkCaloriesFromFatAsPackaged'); ?>" id="pdkCaloriesFromFatAsPackaged">
+          </span>
+        </td>
         <td class="table_row_borderR" width="20%">&nbsp;</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield12">
-          <input name="pdkCaloriesFromFatAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkCaloriesFromFatAsPrepared'); ?>" id="pdkCaloriesFromFatAsPrepared">
-          </span></td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield12">
+            <input name="pdkCaloriesFromFatAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkCaloriesFromFatAsPrepared'); ?>" id="pdkCaloriesFromFatAsPrepared">
+          </span>
+        </td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
 
       <!-- TOTAL FAT -->
       <tr>
         <td class="table_side_head_req">Total Fat</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield13">
-          <input name="pdkTotalFatAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkTotalFatAsPackagedG'); ?>" id="pdkTotalFatAsPackagedG">
-          </span>g</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield14">
-          <input name="pdkTotalFatAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkTotalFatAsPackagedPerc'); ?>" id="pdkTotalFatAsPackagedPerc">
-          </span>%</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield15">
-          <input name="pdkTotalFatAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkTotalFatAsPreparedG'); ?>" id="pdkTotalFatAsPreparedG">
-          </span>g</td>
-        <td class="table_row" width="20%"><span id="sprytextfield16">
-          <input name="pdkTotalFatAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkTotalFatAsPreparedPerc'); ?>" id="pdkTotalFatAsPreparedPerc">
-          </span>%</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield13">
+            <input name="pdkTotalFatAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkTotalFatAsPackagedG'); ?>" id="pdkTotalFatAsPackagedG">
+          </span>g
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield14">
+            <input name="pdkTotalFatAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkTotalFatAsPackagedPerc'); ?>" id="pdkTotalFatAsPackagedPerc">
+          </span>%
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield15">
+            <input name="pdkTotalFatAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkTotalFatAsPreparedG'); ?>" id="pdkTotalFatAsPreparedG">
+          </span>g
+        </td>
+        <td class="table_row" width="20%">
+          <span id="sprytextfield16">
+            <input name="pdkTotalFatAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkTotalFatAsPreparedPerc'); ?>" id="pdkTotalFatAsPreparedPerc">
+          </span>%
+        </td>
       </tr>
 
       <!-- SATURATED FAT -->
       <tr>
         <td class="table_side_head_req">Saturated Fat</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield17">
-          <input name="pdkSaturatedFatAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkSaturatedFatAsPackagedG'); ?>" id="pdkSaturatedFatAsPackagedG">
-          </span>g</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield18">
-          <input name="pdkSaturatedFatAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkSaturatedFatAsPackagedPerc'); ?>" id="pdkSaturatedFatAsPackagedPerc">
-          </span>%</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield19">
-          <input name="pdkSaturatedFatAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkSaturatedFatAsPreparedG'); ?>" id="pdkSaturatedFatAsPreparedG">
-          </span>g</td>
-        <td class="table_row" width="20%"><span id="sprytextfield20">
-          <input name="pdkSaturatedFatAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkSaturatedFatAsPreparedPerc'); ?>" id="pdkSaturatedFatAsPreparedPerc">
-          </span>%</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield17">
+            <input name="pdkSaturatedFatAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkSaturatedFatAsPackagedG'); ?>" id="pdkSaturatedFatAsPackagedG">
+          </span>g
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield18">
+            <input name="pdkSaturatedFatAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkSaturatedFatAsPackagedPerc'); ?>" id="pdkSaturatedFatAsPackagedPerc">
+          </span>%
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield19">
+            <input name="pdkSaturatedFatAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkSaturatedFatAsPreparedG'); ?>" id="pdkSaturatedFatAsPreparedG">
+          </span>g
+        </td>
+        <td class="table_row" width="20%">
+          <span id="sprytextfield20">
+            <input name="pdkSaturatedFatAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkSaturatedFatAsPreparedPerc'); ?>" id="pdkSaturatedFatAsPreparedPerc">
+          </span>%
+        </td>
       </tr>
 
       <!-- TRANS FAT -->
       <tr>
         <td class="table_side_head_req">Trans Fat</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield21">
-          <input name="pdkTransFatAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkTransFatAsPackagedG'); ?>" id="pdkTransFatAsPackagedG">
-          </span>g</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield21">
+            <input name="pdkTransFatAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkTransFatAsPackagedG'); ?>" id="pdkTransFatAsPackagedG">
+          </span>g
+        </td>
         <td class="table_row_borderR" width="20%">&nbsp;</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield22">
-          <input name="pdkTransFatAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkTransFatAsPreparedG'); ?>" id="pdkTransFatAsPreparedG">
-          </span>g</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield22">
+            <input name="pdkTransFatAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkTransFatAsPreparedG'); ?>" id="pdkTransFatAsPreparedG">
+          </span>g
+        </td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
 
       <!-- POLUUNSATURATED FAT -->
       <tr>
         <td class="table_side_head_req">Polyunsaturated Fat</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield23">
-          <input name="pdkPolyunsaturatedFatAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkPolyunsaturatedFatAsPackagedG'); ?>" id="pdkPolyunsaturatedFatAsPackagedG">
-          </span>g</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield23">
+            <input name="pdkPolyunsaturatedFatAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkPolyunsaturatedFatAsPackagedG'); ?>" id="pdkPolyunsaturatedFatAsPackagedG">
+          </span>g
+        </td>
         <td class="table_row_borderR" width="20%">&nbsp;</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield24">
-          <input name="pdkPolyunsaturatedFatAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkPolyunsaturatedFatAsPreparedG'); ?>" id="pdkPolyunsaturatedFatAsPreparedG">
-          </span>g</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield24">
+            <input name="pdkPolyunsaturatedFatAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkPolyunsaturatedFatAsPreparedG'); ?>" id="pdkPolyunsaturatedFatAsPreparedG">
+          </span>g
+        </td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
 
       <!-- MONOUNSATURATED FAT -->
       <tr>
         <td class="table_side_head_req">Monounsaturated Fat</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield25">
-          <input name="pdkMonounsaturatedFatAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkMonounsaturatedFatAsPackagedG'); ?>" id="pdkMonounsaturatedFatAsPackagedG">
-          </span>g</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield25">
+            <input name="pdkMonounsaturatedFatAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkMonounsaturatedFatAsPackagedG'); ?>" id="pdkMonounsaturatedFatAsPackagedG">
+          </span>g
+        </td>
         <td class="table_row_borderR" width="20%">&nbsp;</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield26">
-          <input name="pdkMonounsaturatedFatAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkMonounsaturatedFatAsPreparedG'); ?>" id="pdkMonounsaturatedFatAsPreparedG">
-          </span>g</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield26">
+            <input name="pdkMonounsaturatedFatAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkMonounsaturatedFatAsPreparedG'); ?>" id="pdkMonounsaturatedFatAsPreparedG">
+          </span>g
+        </td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
 
       <!-- CHOLESTEROL -->
       <tr>
         <td class="table_side_head_req">Cholesterol</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield27">
-          <input name="pdkCholesterolAsPackagedMG" type="text" value="<?php echo $PDK_row->getField('pdkCholesterolAsPackagedMG'); ?>" id="pdkCholesterolAsPackagedMG">
-          </span>mg</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield28">
-          <input name="pdkCholesterolAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkCholesterolAsPackagedPerc'); ?>" id="pdkCholesterolAsPackagedPerc">
-          </span>%</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield29">
-          <input name="pdkCholesterolAsPreparedMG" type="text" value="<?php echo $PDK_row->getField('pdkCholesterolAsPreparedMG'); ?>" id="pdkCholesterolAsPreparedMG">
-          </span>mg</td>
-        <td class="table_row" width="20%"><span id="sprytextfield30">
-          <input name="pdkCholesterolAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkCholesterolAsPreparedPerc'); ?>" id="pdkCholesterolAsPreparedPerc">
-          </span>%</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield27">
+            <input name="pdkCholesterolAsPackagedMG" type="text" value="<?php echo $PDK_row->getField('pdkCholesterolAsPackagedMG'); ?>" id="pdkCholesterolAsPackagedMG">
+          </span>mg
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield28">
+            <input name="pdkCholesterolAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkCholesterolAsPackagedPerc'); ?>" id="pdkCholesterolAsPackagedPerc">
+          </span>%
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield29">
+            <input name="pdkCholesterolAsPreparedMG" type="text" value="<?php echo $PDK_row->getField('pdkCholesterolAsPreparedMG'); ?>" id="pdkCholesterolAsPreparedMG">
+          </span>mg
+        </td>
+        <td class="table_row" width="20%">
+          <span id="sprytextfield30">
+            <input name="pdkCholesterolAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkCholesterolAsPreparedPerc'); ?>" id="pdkCholesterolAsPreparedPerc">
+          </span>%
+        </td>
       </tr>
 
       <!-- SODIUM --> 
       <tr>
         <td class="table_side_head_req">Sodium</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield31">
-          <input name="pdkSodiumAsPackagedMG" type="text" value="<?php echo $PDK_row->getField('pdkSodiumAsPackagedMG'); ?>" id="pdkSodiumAsPackagedMG">
-          </span>mg</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield32">
-          <input name="pdkSodiumAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkSodiumAsPackagedPerc'); ?>" id="pdkSodiumAsPackagedPerc">
-          </span>%</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield33">
-          <input name="pdkSodiumAsPreparedMG" type="text" value="<?php echo $PDK_row->getField('pdkSodiumAsPreparedMG'); ?>" id="pdkSodiumAsPreparedMG">
-          </span>mg</td>
-        <td class="table_row" width="20%"><span id="sprytextfield34">
-          <input name="pdkSodiumAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkSodiumAsPreparedPerc'); ?>" id="pdkSodiumAsPreparedPerc">
-          </span>%</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield31">
+            <input name="pdkSodiumAsPackagedMG" type="text" value="<?php echo $PDK_row->getField('pdkSodiumAsPackagedMG'); ?>" id="pdkSodiumAsPackagedMG">
+          </span>mg
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield32">
+            <input name="pdkSodiumAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkSodiumAsPackagedPerc'); ?>" id="pdkSodiumAsPackagedPerc">
+          </span>%
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield33">
+            <input name="pdkSodiumAsPreparedMG" type="text" value="<?php echo $PDK_row->getField('pdkSodiumAsPreparedMG'); ?>" id="pdkSodiumAsPreparedMG">
+          </span>mg
+        </td>
+        <td class="table_row" width="20%">
+          <span id="sprytextfield34">
+            <input name="pdkSodiumAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkSodiumAsPreparedPerc'); ?>" id="pdkSodiumAsPreparedPerc">
+          </span>%
+        </td>
       </tr>
 
       <!-- TOTAL CARBOHYDRATE -->
       <tr>
         <td class="table_side_head_req">Total Carbohydrate</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield39">
-          <input name="pdkTotalCarbohydrateAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkTotalCarbohydrateAsPackagedG'); ?>" id="pdkTotalCarbohydrateAsPackagedG">
-          </span>g</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield40">
-          <input name="pdkTotalCarbohydrateAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkTotalCarbohydrateAsPackagedPerc'); ?>" id="pdkTotalCarbohydrateAsPackagedPerc">
-          </span>%</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield41">
-          <input name="pdkTotalCarbohydrateAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkTotalCarbohydrateAsPreparedG'); ?>" id="pdkTotalCarbohydrateAsPreparedG">
-          </span>g</td>
-        <td class="table_row" width="20%"><span id="sprytextfield42">
-          <input name="pdkTotalCarbohydrateAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkTotalCarbohydrateAsPreparedPerc'); ?>" id="pdkTotalCarbohydrateAsPreparedPerc">
-          </span>%</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield39">
+            <input name="pdkTotalCarbohydrateAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkTotalCarbohydrateAsPackagedG'); ?>" id="pdkTotalCarbohydrateAsPackagedG">
+          </span>g
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield40">
+            <input name="pdkTotalCarbohydrateAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkTotalCarbohydrateAsPackagedPerc'); ?>" id="pdkTotalCarbohydrateAsPackagedPerc">
+          </span>%
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield41">
+            <input name="pdkTotalCarbohydrateAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkTotalCarbohydrateAsPreparedG'); ?>" id="pdkTotalCarbohydrateAsPreparedG">
+          </span>g
+        </td>
+        <td class="table_row" width="20%">
+          <span id="sprytextfield42">
+            <input name="pdkTotalCarbohydrateAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkTotalCarbohydrateAsPreparedPerc'); ?>" id="pdkTotalCarbohydrateAsPreparedPerc">
+          </span>%
+        </td>
       </tr>
 
       <!-- DIETARY FIBER -->
       <tr>
         <td class="table_side_head_req">Dietary Fiber</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield43">
-          <input name="pdkDietaryFiberAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkDietaryFiberAsPackagedG'); ?>" id="pdkDietaryFiberAsPackagedG">
-          </span>g</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield44">
-          <input name="pdkDietaryFiberAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkDietaryFiberAsPackagedPerc'); ?>" id="pdkDietaryFiberAsPackagedPerc">
-          </span>%</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield45">
-          <input name="pdkDietaryFiberAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkDietaryFiberAsPreparedG'); ?>" id="pdkDietaryFiberAsPreparedG">
-          </span>g</td>
-        <td class="table_row" width="20%"><span id="sprytextfield46">
-          <input name="pdkDietaryFiberAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkDietaryFiberAsPreparedPerc'); ?>" id="pdkDietaryFiberAsPreparedPerc">
-          </span>%</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield43">
+            <input name="pdkDietaryFiberAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkDietaryFiberAsPackagedG'); ?>" id="pdkDietaryFiberAsPackagedG">
+          </span>g
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield44">
+            <input name="pdkDietaryFiberAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkDietaryFiberAsPackagedPerc'); ?>" id="pdkDietaryFiberAsPackagedPerc">
+          </span>%
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield45">
+            <input name="pdkDietaryFiberAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkDietaryFiberAsPreparedG'); ?>" id="pdkDietaryFiberAsPreparedG">
+          </span>g
+        </td>
+        <td class="table_row" width="20%">
+          <span id="sprytextfield46">
+            <input name="pdkDietaryFiberAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkDietaryFiberAsPreparedPerc'); ?>" id="pdkDietaryFiberAsPreparedPerc">
+          </span>%
+        </td>
       </tr>
 
       <!-- TOTAL SUGARS -->
       <tr>
         <td class="table_side_head_req">Total Sugars</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield47">
-          <input name="pdkSugarsAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAsPackagedG'); ?>" id="pdkSugarsAsPackagedG">
-          </span>g</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield47">
+            <input name="pdkSugarsAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAsPackagedG'); ?>" id="pdkSugarsAsPackagedG">
+          </span>g
+        </td>
         <td class="table_row_borderR" width="20%">&nbsp;</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield48">
-          <input name="pdkSugarsAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAsPreparedG'); ?>" id="pdkSugarsAsPreparedG">
-          </span>g</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield48">
+            <input name="pdkSugarsAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAsPreparedG'); ?>" id="pdkSugarsAsPreparedG">
+          </span>g
+        </td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
 
       <!-- ADDED SUGARS -->
       <tr>
         <td class="table_side_head_req">Added Sugars</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield49">
-          <input name="pdkSugarsAddedAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAddedAsPackagedG'); ?>" id="pdkSugarsAddedAsPackagedG">
-          </span>g</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield83">
-          <input name="pdkSugarsAddedAsPackagedPer" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAddedAsPackagedPer'); ?>" id="pdkSugarsAddedAsPackagedPer">
-          </span>%</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield50">
-          <input name="pdkSugarsAddedAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAddedAsPreparedG'); ?>" id="pdkSugarsAddedAsPreparedG">
-          </span>g</td>
-        <td class="table_row" width="20%"><span id="sprytextfield84">
-          <input name="pdkSugarsAddedAsPreparedPer" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAddedAsPreparedPer'); ?>" id="pdkSugarsAddedAsPreparedPer">
-          </span>%</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield49">
+            <input name="pdkSugarsAddedAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAddedAsPackagedG'); ?>" id="pdkSugarsAddedAsPackagedG">
+          </span>g
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield83">
+            <input name="pdkSugarsAddedAsPackagedPer" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAddedAsPackagedPer'); ?>" id="pdkSugarsAddedAsPackagedPer">
+          </span>%
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield50">
+            <input name="pdkSugarsAddedAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAddedAsPreparedG'); ?>" id="pdkSugarsAddedAsPreparedG">
+          </span>g
+        </td>
+        <td class="table_row" width="20%">
+          <span id="sprytextfield84">
+            <input name="pdkSugarsAddedAsPreparedPer" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAddedAsPreparedPer'); ?>" id="pdkSugarsAddedAsPreparedPer">
+          </span>%
+        </td>
       </tr>
 
       <!-- PROTEIN -->
       <tr>
         <td class="table_side_head_req">Protein</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield49">
-          <input name="pdkProteinAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkProteinAsPackagedG'); ?>" id="pdkProteinAsPackagedG">
-          </span>g</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield83">
-          <input name="pdkProteinAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkProteinAsPackagedPerc'); ?>" id="pdkProteinAsPackagedPerc">
-          </span>%</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield50">
-          <input name="pdkProteinAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkProteinAsPreparedG'); ?>" id="pdkProteinAsPreparedG">
-          </span>g</td>
-        <td class="table_row" width="20%"><span id="sprytextfield84">
-          <input name="pdkProteinAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkProteinAsPreparedPerc'); ?>" id="pdkProteinAsPreparedPerc">
-          </span>%</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield49">
+            <input name="pdkProteinAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkProteinAsPackagedG'); ?>" id="pdkProteinAsPackagedG">
+          </span>g
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield83">
+            <input name="pdkProteinAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkProteinAsPackagedPerc'); ?>" id="pdkProteinAsPackagedPerc">
+          </span>%
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield50">
+            <input name="pdkProteinAsPreparedG" type="text" value="<?php echo $PDK_row->getField('pdkProteinAsPreparedG'); ?>" id="pdkProteinAsPreparedG">
+          </span>g
+        </td>
+        <td class="table_row" width="20%">
+          <span id="sprytextfield84">
+            <input name="pdkProteinAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkProteinAsPreparedPerc'); ?>" id="pdkProteinAsPreparedPerc">
+          </span>%
+        </td>
       </tr>
 
       <!-- VITAMIN INFORMATION -->
@@ -1178,194 +1285,239 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
 
       <!-- VITAMIN A -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head_req">Vitamin A</td>
-        <td class="table_row"><span id="sprytextfield51">
-          <input name="pdkVitaminAAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkVitaminAAsPackaged'); ?>" id="pdkVitaminAAsPackaged">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield51">
+            <input name="pdkVitaminAAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkVitaminAAsPackaged'); ?>" id="pdkVitaminAAsPackaged">
+          </span>%
+        </td>
         <td class="table_side_head noHighlight">Vitamin A</td>
-        <td class="table_row"><span id="sprytextfield52">
-          <input name="pdkVitaminAAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminAAsPrepared'); ?>" id="pdkVitaminAAsPrepared">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield52">
+            <input name="pdkVitaminAAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminAAsPrepared'); ?>" id="pdkVitaminAAsPrepared">
+          </span>%
+        </td>
       </tr>
 
       <!-- VITAMIN C -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head_req">Vitamin C</td>
-        <td class="table_row"><span id="sprytextfield53">
-          <input name="pdkVitaminCAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkVitaminCAsPackaged'); ?>" id="pdkVitaminCAsPackaged">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield53">
+            <input name="pdkVitaminCAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkVitaminCAsPackaged'); ?>" id="pdkVitaminCAsPackaged">
+          </span>%
+        </td>
         <td class="table_side_head noHighlight">Vitamin C</td>
-        <td class="table_row"><span id="sprytextfield54">
-          <input name="pdkVitaminCAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminCAsPrepared'); ?>" id="pdkVitaminCAsPrepared">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield54">
+            <input name="pdkVitaminCAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminCAsPrepared'); ?>" id="pdkVitaminCAsPrepared">
+          </span>%
+        </td>
       </tr>
 
       <!-- CALCIUM -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head_req">Calcium</td>
-        <td class="table_row"><span id="sprytextfield55">
-          <input name="pdkCalciumAsPackagedPer" type="text" value="<?php echo $PDK_row->getField('pdkCalciumAsPackagedPer'); ?>" id="pdkCalciumAsPackagedPer">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield55">
+            <input name="pdkCalciumAsPackagedPer" type="text" value="<?php echo $PDK_row->getField('pdkCalciumAsPackagedPer'); ?>" id="pdkCalciumAsPackagedPer">
+          </span>%
+        </td>
         <td class="table_side_head noHighlight">Calcium</td>
-        <td class="table_row"><span id="sprytextfield56">
-          <input name="pdkCalciumAsPreparedPer" type="text" value="<?php echo $PDK_row->getField('pdkCalciumAsPreparedPer'); ?>" id="pdkCalciumAsPreparedPer">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield56">
+            <input name="pdkCalciumAsPreparedPer" type="text" value="<?php echo $PDK_row->getField('pdkCalciumAsPreparedPer'); ?>" id="pdkCalciumAsPreparedPer">
+          </span>%
+        </td>
       </tr>
 
       <!-- IRON -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head_req">Iron</td>
-        <td class="table_row"><span id="sprytextfield57">
-          <input name="pdkIronAsPackagedPer" type="text" value="<?php echo $PDK_row->getField('pdkIronAsPackagedPer'); ?>" id="pdkIronAsPackagedPer">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield57">
+            <input name="pdkIronAsPackagedPer" type="text" value="<?php echo $PDK_row->getField('pdkIronAsPackagedPer'); ?>" id="pdkIronAsPackagedPer">
+          </span>%
+        </td>
         <td class="table_side_head noHighlight">Iron</td>
-        <td class="table_row"><span id="sprytextfield58">
-          <input name="pdkIronAsPreparedPer" type="text" value="<?php echo $PDK_row->getField('pdkIronAsPreparedPer'); ?>" id="pdkIronAsPreparedPer">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield58">
+            <input name="pdkIronAsPreparedPer" type="text" value="<?php echo $PDK_row->getField('pdkIronAsPreparedPer'); ?>" id="pdkIronAsPreparedPer">
+          </span>%
+        </td>
       </tr>
 
       <!-- POTASSIUM -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head_wrap">Potassium</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield35">
-          <input name="pdkPotassiumAsPackagedMG" type="text" value="<?php echo $PDK_row->getField('pdkPotassiumAsPackagedMG'); ?>" id="pdkPotassiumAsPackagedMG">
-          </span>mg</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield36">
-          <input name="pdkPotassiumAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkPotassiumAsPackagedPerc'); ?>" id="pdkPotassiumAsPackagedPerc">
-          </span>%</td>
-        <td class="table_row_borderR" width="20%"><span id="sprytextfield37">
-          <input name="pdkPotassiumAsPreparedMG" type="text" value="<?php echo $PDK_row->getField('pdkPotassiumAsPreparedMG'); ?>" id="pdkPotassiumAsPreparedMG">
-          </span>mg</td>
-        <td class="table_row" width="20%"><span id="sprytextfield38">
-          <input name="pdkPotassiumAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkPotassiumAsPreparedPerc'); ?>" id="pdkPotassiumAsPreparedPerc">
-          </span>%</td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield35">
+            <input name="pdkPotassiumAsPackagedMG" type="text" value="<?php echo $PDK_row->getField('pdkPotassiumAsPackagedMG'); ?>" id="pdkPotassiumAsPackagedMG">
+          </span>mg
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield36">
+            <input name="pdkPotassiumAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkPotassiumAsPackagedPerc'); ?>" id="pdkPotassiumAsPackagedPerc">
+          </span>%
+        </td>
+        <td class="table_row_borderR" width="20%">
+          <span id="sprytextfield37">
+            <input name="pdkPotassiumAsPreparedMG" type="text" value="<?php echo $PDK_row->getField('pdkPotassiumAsPreparedMG'); ?>" id="pdkPotassiumAsPreparedMG">
+          </span>mg
+        </td>
+        <td class="table_row" width="20%">
+          <span id="sprytextfield38">
+            <input name="pdkPotassiumAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkPotassiumAsPreparedPerc'); ?>" id="pdkPotassiumAsPreparedPerc">
+          </span>%
+        </td>
       </tr>
 
       <!-- VITAMIN D -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head">Vitamin D</td>
-        <td class="table_row"><span id="sprytextfield59">
-          <input name="pdkVitaminDAsPackagedPer" type="text" value="<?php echo $PDK_row->getField('pdkVitaminDAsPackagedPer'); ?>" id="pdkVitaminDAsPackagedPer">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield59">
+            <input name="pdkVitaminDAsPackagedPer" type="text" value="<?php echo $PDK_row->getField('pdkVitaminDAsPackagedPer'); ?>" id="pdkVitaminDAsPackagedPer">
+          </span>%
+        </td>
         <td class="table_side_head noHighlight">Vitamin D</td>
-        <td class="table_row"><span id="sprytextfield60">
-          <input name="pdkVitaminDAsPreparedPer" type="text" value="<?php echo $PDK_row->getField('pdkVitaminDAsPreparedPer'); ?>" id="pdkVitaminDAsPreparedPer">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield60">
+            <input name="pdkVitaminDAsPreparedPer" type="text" value="<?php echo $PDK_row->getField('pdkVitaminDAsPreparedPer'); ?>" id="pdkVitaminDAsPreparedPer">
+          </span>%
+        </td>
       </tr>
 
       <!-- VITAMIN E -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head_wrap">Vitamin E</td>
-        <td class="table_row"><span id="sprytextfield79">
-          <input name="pdkVitaminEAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkVitaminEAsPackaged'); ?>" id="pdkVitaminEAsPackaged">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield79">
+            <input name="pdkVitaminEAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkVitaminEAsPackaged'); ?>" id="pdkVitaminEAsPackaged">
+          </span>%
+        </td>
         <td class="table_side_head_wrap noHighlight">Vitamin E</td>
-        <td class="table_row"><span id="sprytextfield80">
-          <input name="pdkVitaminEAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminEAsPrepared'); ?>" id="pdkVitaminEAsPrepared">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield80">
+            <input name="pdkVitaminEAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminEAsPrepared'); ?>" id="pdkVitaminEAsPrepared">
+          </span>%
+        </td>
       </tr>
 
       <!-- THIAMIN -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head_wrap">Thiamin</td>
-        <td class="table_row"><span id="sprytextfield61">
-          <input name="pdkThiaminAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkThiaminAsPackaged'); ?>" id="pdkThiaminAsPackaged">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield61">
+            <input name="pdkThiaminAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkThiaminAsPackaged'); ?>" id="pdkThiaminAsPackaged">
+          </span>%
+        </td>
         <td class="table_side_head_wrap noHighlight">Thiamin</td>
-        <td class="table_row"><span id="sprytextfield62">
-          <input name="pdkThiaminAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkThiaminAsPrepared'); ?>" id="pdkThiaminAsPrepared">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield62">
+            <input name="pdkThiaminAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkThiaminAsPrepared'); ?>" id="pdkThiaminAsPrepared">
+          </span>%
+        </td>
       </tr>
 
       <!-- RIBOFLAVIN -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head_wrap">Riboflavin</td>
-        <td class="table_row"><span id="sprytextfield63">
-          <input name="pdkRiboflavinAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkRiboflavinAsPackaged'); ?>" id="pdkRiboflavinAsPackaged">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield63">
+            <input name="pdkRiboflavinAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkRiboflavinAsPackaged'); ?>" id="pdkRiboflavinAsPackaged">
+          </span>%
+        </td>
         <td class="table_side_head_wrap noHighlight">Riboflavin</td>
-        <td class="table_row"><span id="sprytextfield64">
-          <input name="pdkRiboflavinAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkRiboflavinAsPrepared'); ?>" id="pdkRiboflavinAsPrepared">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield64">
+            <input name="pdkRiboflavinAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkRiboflavinAsPrepared'); ?>" id="pdkRiboflavinAsPrepared">
+          </span>%
+        </td>
       </tr>
 
       <!-- NIACIN -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head_wrap">Niacin</td>
-        <td class="table_row"><span id="sprytextfield65">
-          <input name="pdkNiacinAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkNiacinAsPackaged'); ?>" id="pdkNiacinAsPackaged">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield65">
+            <input name="pdkNiacinAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkNiacinAsPackaged'); ?>" id="pdkNiacinAsPackaged">
+          </span>%
+        </td>
         <td class="table_side_head_wrap noHighlight">Niacin</td>
-        <td class="table_row"><span id="sprytextfield66">
-          <input name="pdkNiacinAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkNiacinAsPrepared'); ?>" id="pdkNiacinAsPrepared">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield66">
+            <input name="pdkNiacinAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkNiacinAsPrepared'); ?>" id="pdkNiacinAsPrepared">
+          </span>%
+        </td>
       </tr>
 
       <!-- VITAMIN B6 -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head_wrap">Vitamin B6</td>
-        <td class="table_row"><span id="sprytextfield71">
-          <input name="pdkVitaminB6AsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkVitaminB6AsPackaged'); ?>" id="pdkVitaminB6AsPackaged">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield71">
+            <input name="pdkVitaminB6AsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkVitaminB6AsPackaged'); ?>" id="pdkVitaminB6AsPackaged">
+          </span>%
+        </td>
         <td class="table_side_head_wrap noHighlight">Vitamin B6</td>
-        <td class="table_row"><span id="sprytextfield72">
-          <input name="pdkVitaminB6AsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminB6AsPrepared'); ?>" id="pdkVitaminB6AsPrepared">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield72">
+            <input name="pdkVitaminB6AsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminB6AsPrepared'); ?>" id="pdkVitaminB6AsPrepared">
+          </span>%
+        </td>
       </tr>
 
       <!-- FOLIC ACID -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head_wrap">Folic Acid</td>
-        <td class="table_row"><span id="sprytextfield69">
-          <input name="pdkFolicAcidAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkFolicAcidAsPackaged'); ?>" id="pdkFolicAcidAsPackaged">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield69">
+            <input name="pdkFolicAcidAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkFolicAcidAsPackaged'); ?>" id="pdkFolicAcidAsPackaged">
+          </span>%
+        </td>
         <td class="table_side_head_wrap noHighlight">Folic Acid</td>
-        <td class="table_row"><span id="sprytextfield70">
-          <input name="pdkFolicAcidAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkFolicAcidAsPrepared'); ?>" id="pdkFolicAcidAsPrepared">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield70">
+            <input name="pdkFolicAcidAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkFolicAcidAsPrepared'); ?>" id="pdkFolicAcidAsPrepared">
+          </span>%
+        </td>
       </tr>
 
       <!-- VITAMIN B12 -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head_wrap">Vitamin B12</td>
-        <td class="table_row"><span id="sprytextfield67">
-          <input name="pdkVitaminB12AsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkVitaminB12AsPackaged'); ?>" id="pdkVitaminB12AsPackaged">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield67">
+            <input name="pdkVitaminB12AsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkVitaminB12AsPackaged'); ?>" id="pdkVitaminB12AsPackaged">
+          </span>%
+        </td>
         <td class="table_side_head_wrap noHighlight">Vitamin B12</td>
-        <td class="table_row"><span id="sprytextfield68">
-          <input name="pdkVitaminB12AsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminB12AsPrepared'); ?>" id="pdkVitaminB12AsPrepared">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield68">
+            <input name="pdkVitaminB12AsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminB12AsPrepared'); ?>" id="pdkVitaminB12AsPrepared">
+          </span>%
+        </td>
       </tr>
 
       <!-- PHOSPHORUS -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head_wrap">Phosphorus</td>
-        <td class="table_row"><span id="sprytextfield73">
-          <input name="pdkPhosphorusAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkPhosphorusAsPackaged'); ?>" id="pdkPhosphorusAsPackaged">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield73">
+            <input name="pdkPhosphorusAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkPhosphorusAsPackaged'); ?>" id="pdkPhosphorusAsPackaged">
+          </span>%
+        </td>
         <td class="table_side_head_wrap noHighlight">Phosphorus</td>
-        <td class="table_row"><span id="sprytextfield74">
-          <input name="pdkPhosphorusAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkPhosphorusAsPrepared'); ?>" id="pdkPhosphorusAsPrepared">
-          </span>%</td>
+        <td class="table_row">
+          <span id="sprytextfield74">
+            <input name="pdkPhosphorusAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkPhosphorusAsPrepared'); ?>" id="pdkPhosphorusAsPrepared">
+          </span>%
+        </td>
       </tr>
 
       <!-- MAGNESIUM -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head_wrap">Magnesium</td>
         <td class="table_row"><span id="sprytextfield75">
           <input name="pdkMagnesiumAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkMagnesiumAsPackaged'); ?>" id="pdkMagnesiumAsPackaged">
@@ -1378,7 +1530,6 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
 
       <!-- ZINC -->
       <tr>
-        <td id="blank"></td>
         <td class="table_side_head_wrap">Zinc</td>
         <td class="table_row"><span id="sprytextfield77">
           <input name="pdkZincAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkZincAsPackaged'); ?>" id="pdkZincAsPackaged">
@@ -1390,10 +1541,12 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
       </tr>
       <tr>
         <td class="table_side_head_wrap">As Prepared Footnote</td>
-        <td class="table_row" colspan="4"><span id="sprytextarea8">
-          <textarea name="pdkAsPreparedFootnote" id="pdkAsPreparedFootnote" cols="45" rows="5"><?php echo $PDK_row->getField('pdkAsPreparedFootnote'); ?></textarea>
-</span></td>
-        </tr>
+        <td class="table_row" colspan="4">
+          <span id="sprytextarea8">
+            <textarea name="pdkAsPreparedFootnote" id="pdkAsPreparedFootnote" cols="45" rows="5"><?php echo $PDK_row->getField('pdkAsPreparedFootnote'); ?></textarea>
+          </span>
+        </td>
+      </tr>
     </table>
 
 <!-- ALLERGEN INFORMATION -->
