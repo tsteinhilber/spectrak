@@ -916,6 +916,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
 		  	</td>
       </tr>
     </table>
+
+    <!-- NUTRITION INFO -->
     <table id="nutrition_info" class="table" width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td class="table_header" colspan="5">Nutrition  Information (NLEA)</td>
@@ -952,6 +954,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
         <td class="table_sub_head" colspan="2">As Packaged</td>
         <td class="table_sub_head" colspan="2">As Prepared</td>
       </tr>
+
+      <!-- CALORIES -->
       <tr>
         <td class="table_side_head_req">Calories</td>
         <td class="table_row_borderR" width="20%"><span id="sprytextfield9">
@@ -963,6 +967,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           </span></td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
+
+      <!-- CALORIES FROM FAT -->
       <tr>
         <td class="table_side_head_req">Calories from Fat</td>
         <td class="table_row_borderR" width="20%"><span id="sprytextfield11">
@@ -974,6 +980,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           </span></td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
+
+      <!-- TOTAL FAT -->
       <tr>
         <td class="table_side_head_req">Total Fat</td>
         <td class="table_row_borderR" width="20%"><span id="sprytextfield13">
@@ -989,6 +997,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkTotalFatAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkTotalFatAsPreparedPerc'); ?>" id="pdkTotalFatAsPreparedPerc">
           </span>%</td>
       </tr>
+
+      <!-- SATURATED FAT -->
       <tr>
         <td class="table_side_head_req">Saturated Fat</td>
         <td class="table_row_borderR" width="20%"><span id="sprytextfield17">
@@ -1004,6 +1014,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkSaturatedFatAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkSaturatedFatAsPreparedPerc'); ?>" id="pdkSaturatedFatAsPreparedPerc">
           </span>%</td>
       </tr>
+
+      <!-- TRANS FAT -->
       <tr>
         <td class="table_side_head_req">Trans Fat</td>
         <td class="table_row_borderR" width="20%"><span id="sprytextfield21">
@@ -1015,6 +1027,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           </span>g</td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
+
+      <!-- POLUUNSATURATED FAT -->
       <tr>
         <td class="table_side_head_req">Polyunsaturated Fat</td>
         <td class="table_row_borderR" width="20%"><span id="sprytextfield23">
@@ -1026,6 +1040,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           </span>g</td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
+
+      <!-- MONOUNSATURATED FAT -->
       <tr>
         <td class="table_side_head_req">Monounsaturated Fat</td>
         <td class="table_row_borderR" width="20%"><span id="sprytextfield25">
@@ -1037,6 +1053,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           </span>g</td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
+
+      <!-- CHOLESTEROL -->
       <tr>
         <td class="table_side_head_req">Cholesterol</td>
         <td class="table_row_borderR" width="20%"><span id="sprytextfield27">
@@ -1052,6 +1070,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkCholesterolAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkCholesterolAsPreparedPerc'); ?>" id="pdkCholesterolAsPreparedPerc">
           </span>%</td>
       </tr>
+
+      <!-- SODIUM --> 
       <tr>
         <td class="table_side_head_req">Sodium</td>
         <td class="table_row_borderR" width="20%"><span id="sprytextfield31">
@@ -1067,6 +1087,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkSodiumAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkSodiumAsPreparedPerc'); ?>" id="pdkSodiumAsPreparedPerc">
           </span>%</td>
       </tr>
+
+      <!-- POTASSIUM -->
       <tr>
         <td class="table_side_head_wrap">Potassium</td>
         <td class="table_row_borderR" width="20%"><span id="sprytextfield35">
@@ -1082,6 +1104,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkPotassiumAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkPotassiumAsPreparedPerc'); ?>" id="pdkPotassiumAsPreparedPerc">
           </span>%</td>
       </tr>
+
+      <!-- TOTAL CARBOHYDRATE -->
       <tr>
         <td class="table_side_head_req">Total Carbohydrate</td>
         <td class="table_row_borderR" width="20%"><span id="sprytextfield39">
@@ -1097,6 +1121,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkTotalCarbohydrateAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkTotalCarbohydrateAsPreparedPerc'); ?>" id="pdkTotalCarbohydrateAsPreparedPerc">
           </span>%</td>
       </tr>
+
+      <!-- DIETARY FIBER -->
       <tr>
         <td class="table_side_head_req">Dietary Fiber</td>
         <td class="table_row_borderR" width="20%"><span id="sprytextfield43">
@@ -1112,8 +1138,10 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkDietaryFiberAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkDietaryFiberAsPreparedPerc'); ?>" id="pdkDietaryFiberAsPreparedPerc">
           </span>%</td>
       </tr>
+
+      <!-- TOTAL SUGARS -->
       <tr>
-        <td class="table_side_head_req">Sugars</td>
+        <td class="table_side_head_req">Total Sugars</td>
         <td class="table_row_borderR" width="20%"><span id="sprytextfield47">
           <input name="pdkSugarsAsPackagedG" type="text" value="<?php echo $PDK_row->getField('pdkSugarsAsPackagedG'); ?>" id="pdkSugarsAsPackagedG">
           </span>g</td>
@@ -1123,6 +1151,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           </span>g</td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
+
+      <!-- PROTEIN -->
       <tr>
         <td class="table_side_head_req">Protein</td>
         <td class="table_row_borderR" width="20%"><span id="sprytextfield49">
@@ -1138,11 +1168,15 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkProteinAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkProteinAsPreparedPerc'); ?>" id="pdkProteinAsPreparedPerc">
           </span>%</td>
       </tr>
+
+      <!-- VITAMIN INFORMATION -->
       <tr>
         <td class="table_sub_head">Vitamin Infomation</td>
         <td class="table_sub_head" colspan="2">As Packaged</td>
         <td class="table_sub_head" colspan="2">As Prepared</td>
       </tr>
+
+      <!-- VITAMIN A -->
       <tr>
         <td id="blank"></td>
         <td class="table_side_head_req">Vitamin A</td>
@@ -1154,6 +1188,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkVitaminAAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminAAsPrepared'); ?>" id="pdkVitaminAAsPrepared">
           </span>%</td>
       </tr>
+
+      <!-- VITAMIN C -->
       <tr>
         <td id="blank"></td>
         <td class="table_side_head_req">Vitamin C</td>
@@ -1165,6 +1201,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkVitaminCAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminCAsPrepared'); ?>" id="pdkVitaminCAsPrepared">
           </span>%</td>
       </tr>
+
+      <!-- CALCIUM -->
       <tr>
         <td id="blank"></td>
         <td class="table_side_head_req">Calcium</td>
@@ -1176,6 +1214,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkCalciumAsPreparedPer" type="text" value="<?php echo $PDK_row->getField('pdkCalciumAsPreparedPer'); ?>" id="pdkCalciumAsPreparedPer">
           </span>%</td>
       </tr>
+
+      <!-- IRON -->
       <tr>
         <td id="blank"></td>
         <td class="table_side_head_req">Iron</td>
@@ -1187,6 +1227,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkIronAsPreparedPer" type="text" value="<?php echo $PDK_row->getField('pdkIronAsPreparedPer'); ?>" id="pdkIronAsPreparedPer">
           </span>%</td>
       </tr>
+
+      <!-- VITAMIN D -->
       <tr>
         <td id="blank"></td>
         <td class="table_side_head">Vitamin D</td>
@@ -1198,6 +1240,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkVitaminDAsPreparedPer" type="text" value="<?php echo $PDK_row->getField('pdkVitaminDAsPreparedPer'); ?>" id="pdkVitaminDAsPreparedPer">
           </span>%</td>
       </tr>
+
+      <!-- VITAMIN E -->
       <tr>
         <td id="blank"></td>
         <td class="table_side_head_wrap">Vitamin E</td>
@@ -1209,6 +1253,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkVitaminEAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminEAsPrepared'); ?>" id="pdkVitaminEAsPrepared">
           </span>%</td>
       </tr>
+
+      <!-- THIAMIN -->
       <tr>
         <td id="blank"></td>
         <td class="table_side_head_wrap">Thiamin</td>
@@ -1220,6 +1266,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkThiaminAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkThiaminAsPrepared'); ?>" id="pdkThiaminAsPrepared">
           </span>%</td>
       </tr>
+
+      <!-- RIBOFLAVIN -->
       <tr>
         <td id="blank"></td>
         <td class="table_side_head_wrap">Riboflavin</td>
@@ -1231,6 +1279,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkRiboflavinAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkRiboflavinAsPrepared'); ?>" id="pdkRiboflavinAsPrepared">
           </span>%</td>
       </tr>
+
+      <!-- NIACIN -->
       <tr>
         <td id="blank"></td>
         <td class="table_side_head_wrap">Niacin</td>
@@ -1242,6 +1292,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkNiacinAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkNiacinAsPrepared'); ?>" id="pdkNiacinAsPrepared">
           </span>%</td>
       </tr>
+
+      <!-- VITAMIN B6 -->
       <tr>
         <td id="blank"></td>
         <td class="table_side_head_wrap">Vitamin B6</td>
@@ -1253,6 +1305,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkVitaminB6AsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminB6AsPrepared'); ?>" id="pdkVitaminB6AsPrepared">
           </span>%</td>
       </tr>
+
+      <!-- FOLIC ACID -->
       <tr>
         <td id="blank"></td>
         <td class="table_side_head_wrap">Folic Acid</td>
@@ -1264,6 +1318,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkFolicAcidAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkFolicAcidAsPrepared'); ?>" id="pdkFolicAcidAsPrepared">
           </span>%</td>
       </tr>
+
+      <!-- VITAMIN B12 -->
       <tr>
         <td id="blank"></td>
         <td class="table_side_head_wrap">Vitamin B12</td>
@@ -1275,6 +1331,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkVitaminB12AsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminB12AsPrepared'); ?>" id="pdkVitaminB12AsPrepared">
           </span>%</td>
       </tr>
+
+      <!-- PHOSPHORUS -->
       <tr>
         <td id="blank"></td>
         <td class="table_side_head_wrap">Phosphorus</td>
@@ -1286,6 +1344,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkPhosphorusAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkPhosphorusAsPrepared'); ?>" id="pdkPhosphorusAsPrepared">
           </span>%</td>
       </tr>
+
+      <!-- MAGNESIUM -->
       <tr>
         <td id="blank"></td>
         <td class="table_side_head_wrap">Magnesium</td>
@@ -1297,6 +1357,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkMagnesiumAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkMagnesiumAsPrepared'); ?>" id="pdkMagnesiumAsPrepared">
           </span>%</td>
       </tr>
+
+      <!-- ZINC -->
       <tr>
         <td id="blank"></td>
         <td class="table_side_head_wrap">Zinc</td>
