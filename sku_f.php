@@ -1406,11 +1406,21 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
             <input name="pdkVitaminDAsPackagedPer" type="text" value="<?php echo $PDK_row->getField('pdkVitaminDAsPackagedPer'); ?>" id="pdkVitaminDAsPackagedPer">
           </span>%
         </td>
+        <td class="table_row">
+          <span id="sprytextfield89">
+            <input name="pdkVitaminDAsPackagedMg" type="text" value="<?php echo $PDK_row->getField('pdkVitaminDAsPackagedMg'); ?>" id="pdkVitaminDAsPackagedMg">
+          </span>mg
+        </td>
         <td class="table_side_head noHighlight">Vitamin D</td>
         <td class="table_row">
           <span id="sprytextfield60">
             <input name="pdkVitaminDAsPreparedPer" type="text" value="<?php echo $PDK_row->getField('pdkVitaminDAsPreparedPer'); ?>" id="pdkVitaminDAsPreparedPer">
           </span>%
+        </td>
+        <td class="table_row">
+          <span id="sprytextfield90">
+            <input name="pdkVitaminDAsPreparedMg" type="text" value="<?php echo $PDK_row->getField('pdkVitaminDAsPreparedMg'); ?>" id="pdkVitaminDAsPreparedMg">
+          </span>mg
         </td>
       </tr>
 
@@ -1919,6 +1929,8 @@ var sprytextfield85 = new Spry.Widget.ValidationTextField("sprytextfield85", "no
 var sprytextfield86 = new Spry.Widget.ValidationTextField("sprytextfield86", "none", {isRequired:false});
 var sprytextfield87 = new Spry.Widget.ValidationTextField("sprytextfield87", "none", {isRequired:false});
 var sprytextfield88 = new Spry.Widget.ValidationTextField("sprytextfield88", "none", {isRequired:false});
+var sprytextfield89 = new Spry.Widget.ValidationTextField("sprytextfield89", "none", {isRequired:false});
+var sprytextfield90 = new Spry.Widget.ValidationTextField("sprytextfield90", "none", {isRequired:false});
 var sprytextarea10 = new Spry.Widget.ValidationTextarea("sprytextarea10", {isRequired:false});
 var MenuBar1 = new Spry.Widget.MenuBar("supplier", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
 var MenuBar2 = new Spry.Widget.MenuBar("printers", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
