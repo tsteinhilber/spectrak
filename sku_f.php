@@ -933,11 +933,15 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
       <tr>
         <td class="table_header" colspan="5">Nutrition  Information (NLEA)</td>
       </tr>
+
+      <!-- NET WEIGHT -->
       <tr>
         <td class="table_sub_head">Net Weight (per item)</td>
         <td class="table_sub_head" colspan="2">As Packaged</td>
         <td class="table_sub_head" colspan="2">As Prepared</td>
       </tr>
+
+      <!-- SERVER SIZE -->
       <tr>
         <td class="table_side_head_req">Serving Size</td>
         <td class="table_row_borderR" width="20%">
@@ -953,6 +957,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
         </td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
+
+      <!-- SERVINGS PER CONTAINER -->
       <tr>
         <td class="table_side_head_req">Servings per Container</td>
         <td class="table_row_borderR" width="20%">
@@ -968,6 +974,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
         </td>
         <td class="table_row" width="20%">&nbsp;</td>
       </tr>
+
+      <!-- AMOUNT PER SERVING -->
       <tr>
         <td class="table_sub_head">Amount per Serving</td>
         <td class="table_sub_head" colspan="2">As Packaged</td>
@@ -1291,7 +1299,7 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
             <input name="pdkVitaminAAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkVitaminAAsPackaged'); ?>" id="pdkVitaminAAsPackaged">
           </span>%
         </td>
-        <td class="table_side_head noHighlight">Vitamin A</td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
         <td class="table_row">
           <span id="sprytextfield52">
             <input name="pdkVitaminAAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminAAsPrepared'); ?>" id="pdkVitaminAAsPrepared">
@@ -1307,7 +1315,7 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
             <input name="pdkVitaminCAsPackaged" type="text" value="<?php echo $PDK_row->getField('pdkVitaminCAsPackaged'); ?>" id="pdkVitaminCAsPackaged">
           </span>%
         </td>
-        <td class="table_side_head noHighlight">Vitamin C</td>
+        <td class="table_side_head noHighlight">&nbsp;</td>
         <td class="table_row">
           <span id="sprytextfield54">
             <input name="pdkVitaminCAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkVitaminCAsPrepared'); ?>" id="pdkVitaminCAsPrepared">
@@ -1323,11 +1331,20 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
             <input name="pdkCalciumAsPackagedPer" type="text" value="<?php echo $PDK_row->getField('pdkCalciumAsPackagedPer'); ?>" id="pdkCalciumAsPackagedPer">
           </span>%
         </td>
-        <td class="table_side_head noHighlight">Calcium</td>
+        <td class="table_row">
+          <span id="sprytextfield85">
+            <input name="pdkCalciumAsPackagedMg" type="text" value="<?php echo $PDK_row->getField('pdkCalciumAsPackagedMg'); ?>" id="pdkCalciumAsPackagedMg">
+          </span>mg
+        </td>
         <td class="table_row">
           <span id="sprytextfield56">
             <input name="pdkCalciumAsPreparedPer" type="text" value="<?php echo $PDK_row->getField('pdkCalciumAsPreparedPer'); ?>" id="pdkCalciumAsPreparedPer">
           </span>%
+        </td>
+        <td class="table_row">
+          <span id="sprytextfield86">
+            <input name="pdkCalciumAsPreparedMg" type="text" value="<?php echo $PDK_row->getField('pdkCalciumAsPreparedMg'); ?>" id="pdkCalciumAsPreparedMg">
+          </span>mg
         </td>
       </tr>
 
@@ -1539,6 +1556,8 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
           <input name="pdkZincAsPrepared" type="text" value="<?php echo $PDK_row->getField('pdkZincAsPrepared'); ?>" id="pdkZincAsPrepared">
           </span>%</td>
       </tr>
+
+      <!-- AS PREPARED FOOTNOTE -->
       <tr>
         <td class="table_side_head_wrap">As Prepared Footnote</td>
         <td class="table_row" colspan="4">
@@ -1887,6 +1906,8 @@ var sprytextarea9 = new Spry.Widget.ValidationTextarea("sprytextarea9", {isRequi
 var sprytextfield82 = new Spry.Widget.ValidationTextField("sprytextfield82", "none", {isRequired:false});
 var sprytextfield83 = new Spry.Widget.ValidationTextField("sprytextfield83", "none", {isRequired:false});
 var sprytextfield84 = new Spry.Widget.ValidationTextField("sprytextfield84", "none", {isRequired:false});
+var sprytextfield85 = new Spry.Widget.ValidationTextField("sprytextfield85", "none", {isRequired:false});
+var sprytextfield86 = new Spry.Widget.ValidationTextField("sprytextfield86", "none", {isRequired:false});
 var sprytextarea10 = new Spry.Widget.ValidationTextarea("sprytextarea10", {isRequired:false});
 var MenuBar1 = new Spry.Widget.MenuBar("supplier", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
 var MenuBar2 = new Spry.Widget.MenuBar("printers", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
