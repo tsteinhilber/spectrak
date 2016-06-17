@@ -1375,23 +1375,23 @@ foreach(fmsRelatedSet($UPC_row,'JobUpcSpe') as $UPC__JobUpcSpe_portal_row=>$UPC_
 
       <!-- POTASSIUM -->
       <tr>
-        <td class="table_side_head_wrap">Potassium</td>
-        <td class="table_row_borderR" width="20%">
+        <td class="table_side_head_req">Potassium</td>
+        <td class="table_row">
           <span id="sprytextfield35">
             <input name="pdkPotassiumAsPackagedMG" type="text" value="<?php echo $PDK_row->getField('pdkPotassiumAsPackagedMG'); ?>" id="pdkPotassiumAsPackagedMG">
           </span>mg
         </td>
-        <td class="table_row_borderR" width="20%">
+        <td class="table_row">
           <span id="sprytextfield36">
             <input name="pdkPotassiumAsPackagedPerc" type="text" value="<?php echo $PDK_row->getField('pdkPotassiumAsPackagedPerc'); ?>" id="pdkPotassiumAsPackagedPerc">
           </span>%
         </td>
-        <td class="table_row_borderR" width="20%">
+        <td class="table_row">
           <span id="sprytextfield37">
             <input name="pdkPotassiumAsPreparedMG" type="text" value="<?php echo $PDK_row->getField('pdkPotassiumAsPreparedMG'); ?>" id="pdkPotassiumAsPreparedMG">
           </span>mg
         </td>
-        <td class="table_row" width="20%">
+        <td class="table_row">
           <span id="sprytextfield38">
             <input name="pdkPotassiumAsPreparedPerc" type="text" value="<?php echo $PDK_row->getField('pdkPotassiumAsPreparedPerc'); ?>" id="pdkPotassiumAsPreparedPerc">
           </span>%
